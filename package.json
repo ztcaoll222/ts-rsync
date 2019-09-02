@@ -1,0 +1,20 @@
+{
+  "name": "ts-rsync",
+  "version": "0.0.1",
+  "description": "",
+  "main": "out/index.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.7.3",
+    "typescript": "^3.6.2"
+  }
+}
