@@ -3,7 +3,7 @@ import {StringUtil} from "../common/StringUtil";
 import {Alder32} from "./Alder32";
 import {FileUtil} from "../common/FileUtil";
 
-class Rsync {
+export class Rsync {
     /**
      * 块大小
      */
